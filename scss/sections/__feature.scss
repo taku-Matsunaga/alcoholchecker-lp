@@ -1,0 +1,52 @@
+.feature {
+  margin: 120px auto;
+  .f-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+
+    &__heading2 {
+      font-size: 3.6rem;
+      font-weight: bold;
+      color: #fff;
+      display: inline-block;
+      background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+      padding: 8px 100px;
+    }
+
+    &__lists {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin: 96px auto;
+
+      &--card {
+        background: #ffffff;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        padding: 30px 50px;
+
+        span {
+          font-size: 6rem;
+          background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+        }
+
+        .title {
+          background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+          font-size: 2rem;
+          font-weight: bold;
+          line-height: 2.8rem;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}

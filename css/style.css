@@ -421,4 +421,65 @@ img {
   text-align: center;
   font-weight: 300;
   line-height: 3.2rem;
+}
+
+.feature {
+  margin: 120px auto;
+}
+.feature .f-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.feature .f-wrapper__heading2 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
+  background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
+  background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+  padding: 8px 100px;
+}
+.feature .f-wrapper__lists {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 96px auto;
+}
+.feature .f-wrapper__lists--card {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 30px 50px;
+}
+.feature .f-wrapper__lists--card span {
+  font-size: 6rem;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
+  background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
+  background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.feature .f-wrapper__lists--card .title {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
+  background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
+  background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
