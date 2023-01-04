@@ -18,7 +18,7 @@
       margin: 96px 0;
 
       &--item {
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
 
         .img {
@@ -92,6 +92,49 @@
               -webkit-text-fill-color: initial;
               background-clip: initial;
               text-fill-color: initial;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .comparison {
+    .co-wrapper {
+      width: 90%;
+
+      &__text {
+        font-size: 1.4rem;
+      }
+
+      &__lists {
+        padding: 3rem 1.6rem;
+        gap: 8px;
+
+        &--item {
+          width: 50%;
+
+          .title {
+            padding: 4px;
+            font-size: 1.4rem;
+            display: block;
+          }
+
+          .box {
+            .heading{
+              margin-bottom: 1.6rem;
+            }
+            .text {
+              font-size: 1.6rem;
+              line-height: 2.4rem;
+              margin-bottom: 1.6rem;
+            }
+
+            .sub {
+              font-size: 1.4rem;
+              line-height: 2rem;
             }
           }
         }

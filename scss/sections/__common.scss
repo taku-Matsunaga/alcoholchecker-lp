@@ -22,6 +22,10 @@ img {
   text-align: center;
 }
 
+.sp {
+  display: none;
+}
+
 // Amazon購入ボタン
 .btnWrapper {
   font-size: 1.6rem;
@@ -157,11 +161,13 @@ img {
 @media screen and (max-width: 700px) {
   .commonHeading2 {
     .main {
-      font-size: 2.4rem;
+      font-size: 2rem;
+      line-height: 3rem;
     }
     .sub {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       line-height: 2rem;
+      padding-bottom: 1rem;
     }
   }
 
@@ -198,5 +204,9 @@ img {
     &__btn {
       width: 100%;
     }
+  }
+
+  .sp {
+    display: block;
   }
 }

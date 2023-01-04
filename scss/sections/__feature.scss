@@ -1,6 +1,6 @@
 .feature {
   margin: 120px auto;
-  
+
   .f-wrapper {
     max-width: 1000px;
     margin: auto;
@@ -47,6 +47,25 @@
           line-height: 2.8rem;
           margin-top: 2rem;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .feature {
+    .f-wrapper {
+      width: 90%;
+
+      &__heading2 {
+        font-size: 2rem;
+        display: block;
+        padding: 8px 0;
+        line-height: 2.8rem;
+      }
+
+      &__lists {
+        flex-direction: column;
       }
     }
   }

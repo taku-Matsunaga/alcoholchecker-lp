@@ -59,12 +59,51 @@
       }
     }
 
-    &__textarea{
+    &__textarea {
       color: #fff;
       font-size: 1.6rem;
       text-align: center;
       font-weight: 300;
       line-height: 3.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about {
+    .a-wrapper {
+      width: 90%;
+
+      &__box {
+        &--top {
+          gap: 1.6rem;
+
+          p {
+            font-size: 1.4rem;
+          }
+        }
+        &--bottom {
+          flex-direction: column;
+          width: 100%;
+          margin: auto;
+          text-align: center;
+
+          picture {
+            width: 80%;
+            margin: auto;
+          }
+
+          p {
+            width: 100%;
+            font-size: 1.8rem;
+          }
+        }
+      }
+
+      &__textarea {
+        font-size: 1.4rem;
+        text-align: left;
+      }
     }
   }
 }

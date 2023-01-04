@@ -25,6 +25,10 @@ img {
   text-align: center;
 }
 
+.sp {
+  display: none;
+}
+
 .btnWrapper {
   font-size: 1.6rem;
   font-weight: bold;
@@ -193,11 +197,13 @@ img {
 
 @media screen and (max-width: 700px) {
   .commonHeading2 .main {
-    font-size: 2.4rem;
+    font-size: 2rem;
+    line-height: 3rem;
   }
   .commonHeading2 .sub {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 2rem;
+    padding-bottom: 1rem;
   }
   .designedHeading .sub-bg {
     border-radius: 0 20px 20px 0;
@@ -234,6 +240,9 @@ img {
   }
   .btnWrapper__btn {
     width: 100%;
+  }
+  .sp {
+    display: block;
   }
 }
 .c-container {
@@ -339,6 +348,44 @@ img {
   line-height: 1.8rem;
 }
 
+@media screen and (max-width: 700px) {
+  .c-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .c-container__left {
+    width: 100%;
+    height: 60vh;
+  }
+  .c-container__right {
+    width: 100%;
+  }
+  .c-container__right--textarea {
+    padding: initial;
+    width: 90%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -30%);
+            transform: translate(-50%, -30%);
+  }
+  .c-container__right--textarea .sub_title {
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .c-container__right--textarea .sub_title__text {
+    font-size: 2.4rem;
+  }
+  .c-container__right--textarea .main_title {
+    font-size: 3rem;
+    margin-top: 24px;
+  }
+}
 .about {
   background-color: #679aca;
   padding: 15vh 0;
@@ -425,6 +472,39 @@ img {
   line-height: 3.2rem;
 }
 
+@media screen and (max-width: 700px) {
+  .about .a-wrapper {
+    width: 90%;
+  }
+  .about .a-wrapper__box--top {
+    gap: 1.6rem;
+  }
+  .about .a-wrapper__box--top p {
+    font-size: 1.4rem;
+  }
+  .about .a-wrapper__box--bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .about .a-wrapper__box--bottom picture {
+    width: 80%;
+    margin: auto;
+  }
+  .about .a-wrapper__box--bottom p {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+  .about .a-wrapper__textarea {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+}
 .feature {
   margin: 120px auto;
 }
@@ -486,6 +566,24 @@ img {
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 700px) {
+  .feature .f-wrapper {
+    width: 90%;
+  }
+  .feature .f-wrapper__heading2 {
+    font-size: 2rem;
+    display: block;
+    padding: 8px 0;
+    line-height: 2.8rem;
+  }
+  .feature .f-wrapper__lists {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .flow .fl-wrapper {
   max-width: 1000px;
   margin: 120px auto;
@@ -590,6 +688,35 @@ img {
   margin-top: 1.6rem;
 }
 
+@media screen and (max-width: 700px) {
+  .flow .fl-wrapper__lists {
+    width: 90%;
+    margin: auto;
+  }
+  .flow .fl-wrapper__lists--card .text_wrapper {
+    width: 100%;
+  }
+  .flow .fl-wrapper__lists--card .title .main {
+    font-size: 2.4rem;
+  }
+  .flow .fl-wrapper__lists--card .title .step {
+    font-size: 1.4rem;
+  }
+  .flow .fl-wrapper__lists--card .description {
+    font-size: 1.4rem;
+  }
+  .flow .fl-wrapper__lists--card .items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .data .d-wrapper {
   max-width: 1000px;
   margin: 120px auto;
@@ -646,6 +773,37 @@ img {
   font-weight: bold;
 }
 
+@media screen and (max-width: 700px) {
+  .data .d-wrapper {
+    width: 90%;
+    margin: 96px auto;
+  }
+  .data .d-wrapper__text {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+  .data .d-wrapper__table--text .system {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+  .data .d-wrapper__info .text {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .data .d-wrapper__info .sub {
+    font-size: 1.4rem;
+  }
+}
 .comparison .co-wrapper {
   max-width: 1000px;
   margin: 120px auto;
@@ -668,7 +826,7 @@ img {
   margin: 96px 0;
 }
 .comparison .co-wrapper__lists--item {
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 .comparison .co-wrapper__lists--item .img {
@@ -744,6 +902,38 @@ img {
   text-fill-color: initial;
 }
 
+@media screen and (max-width: 700px) {
+  .comparison .co-wrapper {
+    width: 90%;
+  }
+  .comparison .co-wrapper__text {
+    font-size: 1.4rem;
+  }
+  .comparison .co-wrapper__lists {
+    padding: 3rem 1.6rem;
+    gap: 8px;
+  }
+  .comparison .co-wrapper__lists--item {
+    width: 50%;
+  }
+  .comparison .co-wrapper__lists--item .title {
+    padding: 4px;
+    font-size: 1.4rem;
+    display: block;
+  }
+  .comparison .co-wrapper__lists--item .box .heading {
+    margin-bottom: 1.6rem;
+  }
+  .comparison .co-wrapper__lists--item .box .text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+  .comparison .co-wrapper__lists--item .box .sub {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+}
 .purchase {
   background-color: #679aca;
   padding: 15vh 0;
@@ -771,4 +961,13 @@ img {
   font-weight: bold;
   text-align: center;
   margin: 24px auto;
+}
+
+@media screen and (max-width: 700px) {
+  .purchase .p-wrapper {
+    width: 90%;
+  }
+  .purchase .p-wrapper__container--item {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

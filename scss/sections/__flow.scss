@@ -24,7 +24,7 @@
         width: 100%;
         margin: 120px auto;
 
-        .text_wrapper{
+        .text_wrapper {
           width: 78%;
           margin: auto;
         }
@@ -90,19 +90,56 @@
               margin-bottom: 1.6rem;
             }
 
-            picture{
-              img{
+            picture {
+              img {
                 height: 250px;
                 object-fit: contain;
               }
             }
 
-            &--description{
-              font-size: 1.4rem;line-height: 2rem;
+            &--description {
+              font-size: 1.4rem;
+              line-height: 2rem;
               text-align: center;
               font-weight: bold;
               margin-top: 1.6rem;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .flow {
+    .fl-wrapper {
+      &__lists {
+        width: 90%;
+        margin: auto;
+
+        &--card {
+          .text_wrapper {
+            width: 100%;
+          }
+
+          .title {
+            .main {
+              font-size: 2.4rem;
+            }
+
+            .step {
+              font-size: 1.4rem;
+            }
+          }
+
+          .description {
+            font-size: 1.4rem;
+          }
+
+          .items {
+            flex-direction: column;
+            align-items: center;
           }
         }
       }
