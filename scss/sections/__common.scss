@@ -72,12 +72,12 @@ img {
     font-size: 4rem;
     font-weight: bold;
     color: #fff;
-    padding: 1rem 0;
   }
   .sub {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #fff;
+    padding: 0 0 1.6rem 0;
   }
 }
 
@@ -93,7 +93,7 @@ img {
     border-radius: 0 40px 40px 0;
   }
   .main-bg {
-    background-color: #4c8fcd;
+    background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
     z-index: 10;
     position: relative;
     width: calc(100% - 10%);

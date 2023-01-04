@@ -96,12 +96,12 @@ img {
   font-size: 4rem;
   font-weight: bold;
   color: #fff;
-  padding: 1rem 0;
 }
 .commonHeading2 .sub {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #fff;
+  padding: 0 0 1.6rem 0;
 }
 
 .designedHeading {
@@ -117,7 +117,9 @@ img {
   border-radius: 0 40px 40px 0;
 }
 .designedHeading .main-bg {
-  background-color: #4c8fcd;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
+  background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
+  background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
   z-index: 10;
   position: relative;
   width: 90%;
@@ -482,4 +484,108 @@ img {
   font-weight: bold;
   line-height: 2.8rem;
   margin-top: 2rem;
+}
+
+.flow .fl-wrapper {
+  max-width: 1000px;
+  margin: 120px auto;
+}
+.flow .fl-wrapper__title {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
+  background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
+  background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 2.4rem;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  border-bottom: 2px solid #677be3;
+  padding: 6px 0;
+}
+.flow .fl-wrapper__lists {
+  margin: 96px 0;
+}
+.flow .fl-wrapper__lists--card {
+  width: 100%;
+  margin: 120px auto;
+}
+.flow .fl-wrapper__lists--card .text_wrapper {
+  width: 78%;
+  margin: auto;
+}
+.flow .fl-wrapper__lists--card .title .main {
+  font-size: 3.2rem;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(68, 68, 68, 0.61)), to(rgba(0, 0, 0, 0.8)));
+  background: -webkit-linear-gradient(top, rgba(68, 68, 68, 0.61) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(180deg, rgba(68, 68, 68, 0.61) 0%, rgba(0, 0, 0, 0.8) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: block;
+  margin: 1.6rem 0 3.2rem;
+}
+.flow .fl-wrapper__lists--card .title .step {
+  font-size: 1.6rem;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
+  background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
+  background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+  border-radius: 10px;
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+}
+.flow .fl-wrapper__lists--card .description {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+.flow .fl-wrapper__lists--card .items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 72px auto;
+  gap: 36px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.flow .fl-wrapper__lists--card .items__card {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 30px 50px;
+  width: 250px;
+}
+.flow .fl-wrapper__lists--card .items__card--title {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
+  background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
+  background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+.flow .fl-wrapper__lists--card .items__card picture img {
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.flow .fl-wrapper__lists--card .items__card--description {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1.6rem;
 }/*# sourceMappingURL=style.css.map */
