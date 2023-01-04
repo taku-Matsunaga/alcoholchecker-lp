@@ -99,7 +99,7 @@ img {
   padding: 1rem 0;
 }
 .commonHeading2 .sub {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   font-weight: bold;
   color: #fff;
 }
@@ -335,4 +335,90 @@ img {
   font-weight: bold;
   text-align: center;
   line-height: 1.8rem;
+}
+
+.about {
+  background-color: #679aca;
+  padding: 15vh 0;
+}
+.about .a-wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+.about .a-wrapper__box {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px 20px;
+  margin: 120px auto;
+}
+.about .a-wrapper__box--top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about .a-wrapper__box--top span {
+  width: 10%;
+  font-size: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about .a-wrapper__box--top p {
+  width: 90%;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+.about .a-wrapper__box--bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.about .a-wrapper__box--bottom picture {
+  width: 30%;
+}
+.about .a-wrapper__box--bottom p {
+  width: 70%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
+  background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
+  background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.about .a-wrapper__textarea {
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 300;
+  line-height: 3.2rem;
 }/*# sourceMappingURL=style.css.map */
