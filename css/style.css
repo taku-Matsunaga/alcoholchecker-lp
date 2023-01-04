@@ -742,4 +742,33 @@ img {
   -webkit-text-fill-color: initial;
   background-clip: initial;
   text-fill-color: initial;
+}
+
+.purchase {
+  background-color: #679aca;
+  padding: 15vh 0;
+}
+.purchase .p-wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+.purchase .p-wrapper__container--item {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  width: 50%;
+  max-width: 400px;
+  margin: 120px auto;
+  text-align: center;
+  padding: 40px;
+}
+.purchase .p-wrapper__container--item .picture img {
+  width: 60%;
+}
+.purchase .p-wrapper__container--item .title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 24px auto;
 }/*# sourceMappingURL=style.css.map */
