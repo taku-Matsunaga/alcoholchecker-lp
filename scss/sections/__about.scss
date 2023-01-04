@@ -69,12 +69,13 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .about {
     .a-wrapper {
       width: 90%;
 
       &__box {
+        margin: 60px auto;
         &--top {
           gap: 1.6rem;
 
@@ -91,6 +92,7 @@
           picture {
             width: 80%;
             margin: auto;
+            max-width: 200px;
           }
 
           p {
@@ -103,6 +105,7 @@
       &__textarea {
         font-size: 1.4rem;
         text-align: left;
+        font-weight: normal;
       }
     }
   }

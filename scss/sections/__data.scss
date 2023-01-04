@@ -1,7 +1,7 @@
 .data {
   .d-wrapper {
     max-width: 1000px;
-    margin: 120px auto;
+    margin: 96px auto 180px;
 
     &__text {
       font-size: 1.6rem;
@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .data {
     .d-wrapper {
       width: 90%;
