@@ -1,0 +1,60 @@
+.data {
+  .d-wrapper {
+    max-width: 1000px;
+    margin: 120px auto;
+
+    &__text {
+      font-size: 1.6rem;
+      text-align: center;
+      line-height: 3rem;
+    }
+
+    &__table {
+      margin: 96px auto 36px;
+
+      &--text {
+        display: flex;
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-align: center;
+
+        .system {
+          width: 73%;
+          color: #e36767;
+          border-bottom: 6px solid #e36767;
+          padding-bottom: 6px;
+        }
+
+        .pulldown {
+          width: 27%;
+          color: #86c5ff;
+          border-bottom: 6px solid #86c5ff;
+          padding-bottom: 6px;
+        }
+      }
+    }
+
+    &__info {
+      background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
+      border-radius: 16px;
+      text-align: center;
+      padding: 16px 20px;
+      width: 80%;
+      margin: auto;
+
+      .text{
+        color: #fff;
+        font-size: 2.8rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1.6rem;
+      }
+
+      .sub{
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
