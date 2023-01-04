@@ -646,15 +646,15 @@ img {
   font-weight: bold;
 }
 
-.comparison .c-wrapper {
+.comparison .co-wrapper {
   max-width: 1000px;
   margin: 120px auto;
 }
-.comparison .c-wrapper__text {
+.comparison .co-wrapper__text {
   font-size: 1.6rem;
   line-height: 3rem;
 }
-.comparison .c-wrapper__lists {
+.comparison .co-wrapper__lists {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -667,16 +667,16 @@ img {
   padding: 50px;
   margin: 96px 0;
 }
-.comparison .c-wrapper__lists--item {
+.comparison .co-wrapper__lists--item {
   margin: auto;
   text-align: center;
 }
-.comparison .c-wrapper__lists--item .img {
+.comparison .co-wrapper__lists--item .img {
   height: 200px;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.comparison .c-wrapper__lists--item .title {
+.comparison .co-wrapper__lists--item .title {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
   background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
   background: linear-gradient(0deg, #677be3 -9.29%, #86c5ff 160.71%);
@@ -689,21 +689,21 @@ img {
   display: inline-block;
   margin: 48px 0 0;
 }
-.comparison .c-wrapper__lists--item .title.comparison {
+.comparison .co-wrapper__lists--item .title.comparison {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(68, 68, 68, 0.61)), to(rgba(0, 0, 0, 0.8)));
   background: -webkit-linear-gradient(top, rgba(68, 68, 68, 0.61) 0%, rgba(0, 0, 0, 0.8) 100%);
   background: linear-gradient(180deg, rgba(68, 68, 68, 0.61) 0%, rgba(0, 0, 0, 0.8) 100%);
 }
-.comparison .c-wrapper__lists--item .box {
+.comparison .co-wrapper__lists--item .box {
   margin: 36px auto;
 }
-.comparison .c-wrapper__lists--item .box .heading {
+.comparison .co-wrapper__lists--item .box .heading {
   color: #679aca;
   font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 8px;
 }
-.comparison .c-wrapper__lists--item .box .text {
+.comparison .co-wrapper__lists--item .box .text {
   font-size: 2rem;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
   background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
@@ -715,7 +715,7 @@ img {
   font-weight: bold;
   line-height: 3rem;
 }
-.comparison .c-wrapper__lists--item .box .text.comparison {
+.comparison .co-wrapper__lists--item .box .text.comparison {
   color: #333;
   background: initial;
   -webkit-background-clip: initial;
@@ -723,7 +723,7 @@ img {
   background-clip: initial;
   text-fill-color: initial;
 }
-.comparison .c-wrapper__lists--item .box .sub {
+.comparison .co-wrapper__lists--item .box .sub {
   font-size: 1.6rem;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(-9.29%, #677be3), color-stop(160.71%, #86c5ff));
   background: -webkit-linear-gradient(bottom, #677be3 -9.29%, #86c5ff 160.71%);
@@ -735,7 +735,7 @@ img {
   font-weight: bold;
   line-height: 2.8rem;
 }
-.comparison .c-wrapper__lists--item .box .sub.comparison {
+.comparison .co-wrapper__lists--item .box .sub.comparison {
   color: #333;
   background: initial;
   -webkit-background-clip: initial;
